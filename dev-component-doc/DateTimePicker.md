@@ -111,19 +111,19 @@
 > 该实体类实现，日期时间的控制、转换、格式化输出等方法
 
 - 实现输入一个日期时间字符串来实例化
-  - [ ] constance(datetime:string|Date, template)
+  - [x] constance(datetime:string|Date, template)
 - 实现 年/月/日/时/分/秒 单独控制
-  - [ ] setDateTime(datetime:string|number|Date|DateTime|DateTimeMeta):boolean 设置日期时间，返回是否成功
+  - [x] setDateTime(datetime:string|number|Date|DateTime|DateTimeMeta):boolean 设置日期时间，返回是否成功
     - DateTimeMeta:{ year:number,mouth:number, date:number, hour:number, minute:number, second:number }
 - 实现格式化输出
-  - [ ] format(template:string):string 输入字符串模版，来格式化输出
+  - [x] format(template:string):string 输入字符串模版，来格式化输出
     - 模版占位符请参考https://element.eleme.cn/#/zh-CN/component/date-picker日期格式
 - 获取时间
-  - [ ] getTime():string
+  - [x] getTime():string
 - 获取日期
-  - [ ] getDate():string
+  - [x] getDate():string
 - 转为Date类型
-  - [ ] toDate():Date
+  - [x] toDate():Date
 
 ### Entity DateTimeMulti（待定）
 
@@ -146,20 +146,20 @@
 > 该实体类要实现一些数据生成的方法
 
 - 实现生成指定范围内的年的数据列表
-  - static generateYearRange(currentYear, size):[number, number]
+  - [x] static generateYearRange(currentYear, size):[number, number]
     - 返回一个区间[2021,2022]包含2021也包含2022
 - 实现生成月的区间
-  - static generateMouth():[number, number]
+  - [x] static generateMouth():[number, number]
 - 实现生成某一年的某一月的个数
-  - static generateDay(year, mouth):[number, number]
+  - [x] static generateDay(year, mouth):[number, number]
 - 实现生成时
-  - static generateHour():[number, number]
+  - [x] static generateHour():[number, number]
 - 实现生成分
-  - static generateMinute():[number,number]
+  - [x] static generateMinute():[number,number]
 - 实现生成秒
-  - static generateSecond():[number,number]
+  - [x] static generateSecond():[number,number]
 - 格式化时间
-  - static format(date, template):string
+  - [x] static format(date, template):string
 
 ### InputRange
 
