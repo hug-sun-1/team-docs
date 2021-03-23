@@ -122,7 +122,7 @@
   - [x] getTime():string
 - 获取日期
   - [x] getDate():string
-- 转为Date类型
+- 转为 Date 类型
   - [x] toDate():Date
 
 ### Entity DateTimeMulti（待定）
@@ -147,7 +147,7 @@
 
 - 实现生成指定范围内的年的数据列表
   - [x] static generateYearRange(currentYear, size):[number, number]
-    - 返回一个区间[2021,2022]包含2021也包含2022
+    - 返回一个区间[2021,2022]包含 2021 也包含 2022
 - 实现生成月的区间
   - [x] static generateMouth():[number, number]
 - 实现生成某一年的某一月的个数
@@ -164,17 +164,17 @@
 ### InputRange
 
 - 实现两个文本框的输入
-  - [x] 基于`modelValue`进行数据双向绑定，实现两个文本框的输入modelValue[0]是开始的输入框内容，modelValue[1]是结束的输入框内容
+  - [x] 基于`modelValue`进行数据双向绑定，实现两个文本框的输入 modelValue[0]是开始的输入框内容，modelValue[1]是结束的输入框内容
     - modelValue
       - Type: string[]
   - [x] 当 input 失去焦点的时候触发`blur`事件
   - [x] 当 input 获得焦点后触发`focus`事件
 - 实现文本选择
-  - [ ] 通过`select(inputID, start, length)`方法对选中的文本框进行文本选择
+  - [x] 通过`select(inputID, start, length)`方法对选中的文本框进行文本选择
     - inputID
       - Type: 'start'|'end' 分别表示开始输入框和结束输入框
 - 实现手动聚焦
-  - [ ] 通过`focus(inputID)`对输入框进行聚焦
+  - [x] 通过`focus(inputID)`对输入框进行聚焦
 - 实现自定义图标及是否显示
   - [x] 基于`prefix-icon`实现自定义文本框前的图标
   - [x] 基于`clear-icon`实现自定义移除图标
@@ -228,7 +228,7 @@
         - second 秒
   - [ ] 当鼠标移开之后触发`leave(pos)`事件
 - 实现可选时间段控制
-  - [ ] 基于selectableRange实现可以选时间段控制
+  - [ ] 基于 selectableRange 实现可以选时间段控制
     - selectableRange
       - Type: string[]
         - eg: ['11:22:00-12:33:00'] or ['11:22:00']
@@ -236,7 +236,7 @@
 ### TimeRange
 
 - 实现时间区间的选择功能
-  - [ ] 基于`modelValue`来双向绑定两个DateTime类型的数据
+  - [ ] 基于`modelValue`来双向绑定两个 DateTime 类型的数据
     - modelValue
       - Type: [DateTime, DateTime]
 - 实现不同模式的选择方式
@@ -248,6 +248,7 @@
     - timeID
       - Type: 'start' | 'end'
 - 实现鼠标放到 Time 上触发的事件
+
   - [ ] 当鼠标放到列表上触发`hover(timeID, pos)`事件
     - pos 表示当前所在的列表位置
       - Type: 'hour' | 'minute' | 'second'
@@ -257,7 +258,7 @@
   - [ ] 当鼠标移开之后触发`leave(timeID, pos)`事件
 
 - 实现可选时间段控制
-  - [ ] 基于selectableRange实现可以选时间段控制
+  - [ ] 基于 selectableRange 实现可以选时间段控制
     - selectableRange
       - Type: {start:string[],end:string[]}
         - eg: ['11:22:00-12:33:00'] or ['11:22:00']
@@ -273,9 +274,9 @@
   - [ ] 基于`prefix-icon`实现自定义头部图标
   - [ ] 基于`clear-icon`实现自定义清空图标
 - 实现输入框为空的时候占位信息
-  - [ ] 基于`placeholder`实现在is-range为false的时候的输入框的占位信息
-  - [ ] 基于`start-placeholder`实现在is-range为true的时候开始输入框的占位信息
-  - [ ] 基于`end-placeholder`实现在is-range为true的时候结束输入框的占位信息
+  - [ ] 基于`placeholder`实现在 is-range 为 false 的时候的输入框的占位信息
+  - [ ] 基于`start-placeholder`实现在 is-range 为 true 的时候开始输入框的占位信息
+  - [ ] 基于`end-placeholder`实现在 is-range 为 true 的时候结束输入框的占位信息
 - 实现样式控制
   - [ ] 基于`size`实现组件大小的设置
   - [ ] 基于`align`实现对齐控制
@@ -326,4 +327,3 @@
     - types.ts
     - props.ts
     - index.js
-
