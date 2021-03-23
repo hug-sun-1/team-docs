@@ -164,11 +164,11 @@
 ### InputRange
 
 - 实现两个文本框的输入
-  - [ ] 基于`modelValue`进行数据双向绑定，实现两个文本框的输入modelValue[0]是开始的输入框内容，modelValue[1]是结束的输入框内容
+  - [x] 基于`modelValue`进行数据双向绑定，实现两个文本框的输入modelValue[0]是开始的输入框内容，modelValue[1]是结束的输入框内容
     - modelValue
       - Type: string[]
-  - [ ] 当 input 失去焦点的时候触发`blur`事件
-  - [ ] 当 input 获得焦点后触发`focus`事件
+  - [x] 当 input 失去焦点的时候触发`blur`事件
+  - [x] 当 input 获得焦点后触发`focus`事件
 - 实现文本选择
   - [ ] 通过`select(inputID, start, length)`方法对选中的文本框进行文本选择
     - inputID
@@ -176,23 +176,25 @@
 - 实现手动聚焦
   - [ ] 通过`focus(inputID)`对输入框进行聚焦
 - 实现自定义图标及是否显示
-  - [ ] 基于`prefix-icon`实现自定义文本框前的图标
-  - [ ] 基于`clear-icon`实现自定义移除图标
-  - [ ] 基于`clearable`实现是否显示移除图标
+  - [x] 基于`prefix-icon`实现自定义文本框前的图标
+  - [x] 基于`clear-icon`实现自定义移除图标
+  - [x] 基于`clearable`实现是否显示移除图标
 - 实现输入框状态的控制
-  - [ ] 基于`readonly`实现只读
-  - [ ] 基于`disabled`实现禁用
-  - [ ] 基于`editable`实现是否可编辑
+  - [x] 基于`readonly`实现只读
+  - [x] 基于`disabled`实现禁用
+  - [x] 基于`editable`实现是否可编辑
 - 实现输入框的样式控制
-  - [ ] 基于`size`实现大小变更
+  - [x] 基于`size`实现大小变更
     - size
       - Type: 'medium' | 'small' | 'mini'
-  - [ ] 基于`align`实现对齐效果
+  - [x] 基于`align`实现对齐效果
     - align
       - Type: 'left' | 'center' | 'right'
 - 实现空输入的时候显示的占位文本
-  - [ ] 基于`start-placeholder`实现文本框 1 的内容显示
-  - [ ] 基于`end-placeholder`实现文本框 2 的内容显示
+  - [x] 基于`start-placeholder`实现文本框 1 的内容显示
+  - [x] 基于`end-placeholder`实现文本框 2 的内容显示
+- 实现输入框之间的占位符
+  - [x] 基于`range-separator`可指定占位符，默认`-`
 
 ### Picker
 
