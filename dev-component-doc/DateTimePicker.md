@@ -198,13 +198,12 @@
 
 ### Picker
 
-- 实现不同模式下文本框
-  - [ ] 基于`model`实现文本框控制
-    - mode
-      - Type: 'input' | 'input-range'
+- 实现自定义显示内容
+  - [ ] 基于`#default`实现文本框控制
 - 实现自定义弹窗
-  - [ ] 在点击 input 的时候弹出框
-  - [ ] 基于`#default`实现自定义弹框内容
+  - [ ] 在点击 #default 的时候弹出框
+  - [ ] 基于`#popover`实现自定义弹框内容
+  
 
 ### Time/TimeModelRolling/TimeModeButton
 
