@@ -76,8 +76,6 @@
 > 这里是组件之间的依赖关系的描述，如：Picker 组件必须在 Input、InputRange、Popover 完成后才能开发
 
 - Picker
-  - Input
-  - InputRange
   - Popover
 - Time
   - TimeModelRolling
